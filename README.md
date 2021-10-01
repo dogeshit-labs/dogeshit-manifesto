@@ -1,20 +1,3 @@
-> The Internet is extremely valuable if you know what you're looking for... But
-> you can’t pursue any kind of inquiry without a relatively clear framework
-> that’s directing your search and helping you choose what’s significant and
-> what isn’t… If you don’t have some sort of a framework for what matters —
-> always, of course, with the provisor that you’re willing to question it if it
-> seems to be going in the wrong direction — if you don’t have that, exploring
-> the Internet is just picking out the random factoids that don’t mean
-> anything… The random exploration through the internet it turns out to be a
-> cult generator — pick up a factoid here, pick up a factoid there, and all of
-> a sudden you have some crazed picture that has some factual basis but nothing
-> to do with the world. You have to know how to evaluate, interpret, and
-> understand… And cultivating that capacity to seek what’s significant, always
-> willing to question whether you’re on the right track — that’s what education
-> is going to be about, whether it’s using computers and the Internet, or
-> pencil and paper, or books.
->
-– <cite>[Noam Chomsky - The Purpose of Education][nc12]</cite>
 
 # The Dogeshit Manifesto
 
@@ -217,9 +200,27 @@ block.
 
 ## Energy Usage, Speed, and Transaction Fees
 
-fdsaf
+
+## The Importance of Blockchain Literacy
 
 
+> The Internet is extremely valuable if you know what you're looking for... But
+> you can’t pursue any kind of inquiry without a relatively clear framework
+> that’s directing your search and helping you choose what’s significant and
+> what isn’t… If you don’t have some sort of a framework for what matters —
+> always, of course, with the provisor that you’re willing to question it if it
+> seems to be going in the wrong direction — if you don’t have that, exploring
+> the Internet is just picking out the random factoids that don’t mean
+> anything… The random exploration through the internet it turns out to be a
+> cult generator — pick up a factoid here, pick up a factoid there, and all of
+> a sudden you have some crazed picture that has some factual basis but nothing
+> to do with the world. You have to know how to evaluate, interpret, and
+> understand… And cultivating that capacity to seek what’s significant, always
+> willing to question whether you’re on the right track — that’s what education
+> is going to be about, whether it’s using computers and the Internet, or
+> pencil and paper, or books.
+>
+– <cite>[Noam Chomsky - The Purpose of Education][nc12]</cite>
 
 # References
 
