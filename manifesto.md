@@ -200,6 +200,76 @@ block.
 
 ## Energy Usage, Speed, and Transaction Fees
 
+### Why Litecoin
+
+Dogecoin's core technologies are a fork of Luckycoin, a now defunct fork of
+Litecoin. Currently, Dogecoin and Litecoin are merged mined, meaning that
+miners can utilize the same work to mine Litecoin and Dogecoin simultaneously.
+This initial choice of forking off of Litecoin was based on the fact that
+Litecoin had faster and cheaper transactions and that at the time, it could
+still be mined on consumer GPUs. At this point, Bitcoin mining was already
+controlled by ASICs, expensive custom chips designed with the sole purpose of
+mining Bitcoin. At the time, this meant Dogecoin was the one of the most
+accessible ways of interacting with blockchain technologies, both as a user and
+a miner. Unfortunately, by June of 2014, ASIC miners capable of mining both
+Litecoin and Dogecoin had hit the market, meaning the Dogecoin mining
+operations shared the same prohibitive entry costs as Bitcoin.
+
+The initial design choices to base Dogecoin off of Litecoin were well intentioned,
+but unfortunately, were made moot by technological progression. While the cost of
+using Dogecoin remained low, the cost of effectively participating in the network
+became inaccessible to a general audience. 
+
+
+### Current Dogecoin Metrics
+
+We're going to look at 4 important metrics when evaluating the current Dogecoin
+network. Each of these play an important role in what makes a blockchain
+technology scalable and usable in day to day transactions.
+
+- Transactions per Second
+- Finality Time
+- Transaction Cost
+- Network Energy Usage
+
+#### Transactions per Second (TPS)
+
+The number of transactions that can be processed per second. This number is
+important, but not as vital as it might seem. The big issue with a low TPS
+comes from spikes of high demand. For reference Visa claims to be able to
+handle up to 24,000 transactions per second, but it only appears to average
+around 1,700 transactions per second. Paypal handles on average 190
+transactions per second, but can handle up to 1000 transactions per second
+during peak periods.
+
+Dogecoin can handle a maximum of **68** transactions per second. This 
+can be calculated by the following:
+
+$$
+\frac{\textrm{Block Size Limit}}{\textrm{Minimum Transaction Size} \times \textrm{Block Time}} = \frac{1024^{2} \ensuremath{\, \mathrm{Bytes}}}{257 \ensuremath{\, \mathrm{Bytes}} \times 60 \ensuremath{\, \mathrm{seconds}}} \approx 68 \ensuremath{\, \mathrm{TPS}}
+$$
+
+#### Finality Time
+
+Finality time describes how long it takes to be sure that the result of a
+transaction is final. Unfortunately, Dogecoin, as well as Litecoin and Bitcoin,
+a transaction can never truly be finalized. Instead these protocols rely on a
+number of additional blocks to verify that the given transaction remains in the
+longest chain. 6 confirmations is generally what wallet software uses, but
+exchanges can often require significantly more. Kraken requires 40
+confirmations, and Coinbase requires 60 confirmations. Each one of these
+confirmations takes a minute, so the effective time for a Dogecoin transaction
+to clear can range from **6-60 minutes** depending upon the context. 
+
+#### Transaction Cost
+
+The transaction fee represents how much it costs to send Dogecoin, regardless
+of amount. In 2021 the median transaction fee for Dogecoin peaked at just over
+**\$1.25** per transaction, and now currently hovers around **\$0.34** (October 2021). 
+
+#### Network Energy Usage
+
+
 
 ## The Importance of Blockchain Literacy
 
