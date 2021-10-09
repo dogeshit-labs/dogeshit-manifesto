@@ -18,14 +18,14 @@ def file(string):
     return string
 
 def make_url(latex):
-   return RENDER_URL + urllib.parse.quote_plus(latex)
+   return RENDER_URL + urllib.parse.quote(latex)
 
 def make_inline_tag(latex, eq_no):
-    return "![Inline Equation {}]({})".format(eq_no, make_url('inline&space;' + latex.replace(' ', '')))
+    return "![Inline Equation {}]({})".format(eq_no, make_url('\\inline' + latex))
 
 def make_standalone_tag(latex, eq_no):
-    tag = "![Equation {}]({})".format(eq_no, make_url(latex.replace(' ', '')))
-    return "<br>\n{}\n<br>".format(tag)
+    tag = "![Equation {}]({})".format(eq_no, make_url(latex))
+    return "  \n{}  \n".format(tag)
 
 def inline_replace(match):
     global inline_match_count
