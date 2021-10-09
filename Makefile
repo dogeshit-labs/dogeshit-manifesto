@@ -1,5 +1,11 @@
+all: pdf github
+.PHONY: all clean
+
 pdf:
-	pandoc -f markdown manifesto.md -o manifesto.pdf
+	mkdir -p build
+	pandoc -f markdown manifesto.md -t latex -s -o build/manifesto.tex
+	pdflatex --output-directory=build build/manifesto.tex
+	mv build/manifesto.pdf manifesto.pdf
 
 github:
 	mkdir -p build
