@@ -46,7 +46,7 @@ def standalone_replace(match):
 def format_equations(text):
     global eq_match_count
     eq_match_count = 0
-    p = re.compile(r'\$\$\n(.*)\n\$\$', re.MULTILINE)
+    p = re.compile(r'\$\$\n(.*)\n\$\$', re.DOTALL)
     return p.sub(standalone_replace, text)
 
 def format_content(filename):
