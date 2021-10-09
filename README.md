@@ -281,9 +281,8 @@ minutes** depending upon the context.
 
 The transaction fee represents how much it costs to send Dogecoin,
 regardless of amount. In 2021 the median transaction fee for Dogecoin
-peaked at just over **\![Inline
-Equation 1](https://latex.codecogs.com/svg.latex?inline%26space%3B1.25%2A%2Apertransaction%2Candnowcurrentlyhoversaround%2A%2A%5C)0.34**
-(October 2021).
+peaked at just over **$1.25** per transaction, and now currently hovers
+around **$0.34** (October 2021).
 
 #### Network Energy Usage
 

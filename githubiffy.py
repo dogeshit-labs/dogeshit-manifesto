@@ -35,7 +35,7 @@ def inline_replace(match):
 def format_inline_equations(text):
     global inline_match_count
     inline_match_count = 0
-    p = re.compile(r'\$([^$\n]+)\$', re.MULTILINE)
+    p = re.compile(r'(?<!\\)\$([^$\n]+)\$', re.MULTILINE)
     return p.sub(inline_replace, text)
 
 def standalone_replace(match):
