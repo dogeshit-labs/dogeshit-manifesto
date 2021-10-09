@@ -31,8 +31,8 @@ around the following 4 major design choices:
 1. 1 Dogecoin **→** 1 Dogeshit
 2. Just as Dogecoin was **not pre-mined**, Dogeshit is **not pre-minted**
 3. Keep the numbers **–nice–**
-4. "To be clear, I strongly believe in crypto, but it can’t drive a massive increase in fossil fuel use, especially coal" <sup>[[1]](#1)</sup>  
- "Ideally, Doge speeds up block time 10X, increases block size 10X & drops fee 100X. Then it wins hands down." <sup>[[2]](#2)</sup>
+4. "To be clear, I strongly believe in crypto, but it can’t drive a massive increase in fossil fuel use, especially coal" <sup>[1](#1)</sup>  
+ "Ideally, Doge speeds up block time 10X, increases block size 10X & drops fee 100X. Then it wins hands down." <sup>[2](#2)</sup>
 
 
 ## 'Shitcoin' – A Primer
@@ -57,7 +57,7 @@ grasslands. Looking specifically at the African grasslands, evidence points to
 the fact the mobility of herds fostered a rich grassland ecosystem by consuming
 nutrients from across the plain, only to deposit concentrated amounts of shit
 into corralled areas during the night. The benefits of those habits are still
-detectable from as long as 3,000 years ago <sup>[[3]](#3)</sup>.
+detectable from as long as 3,000 years ago <sup>[3](#3)</sup>.
 
 All of that might be interesting, but how does that matter to Dogecoin?
 Dogecoin, as well as other decentralized ledger technologies, are very unique
@@ -112,7 +112,7 @@ developer.  This process is not necessarily malicious, but it relies on the
 trust of the initial developer.  This ability to control such a large portion
 of the tokens can lead to the infamous behavior known as **'rug-pulling'** –
 when someone who controls a massive amount of the token supply sells their
-tokens on the market<sup>[[4]](#4)</sup>. Since the token holder had basically no vested financial
+tokens on the market<sup>[4](#4)</sup>. Since the token holder had basically no vested financial
 risk in their position, this behavior can completely undermine the value of the
 token at the expense of those who chose to invest in the project.
 
@@ -150,12 +150,12 @@ mining reward payout schedule of Dogecoin.
 Dogecoin initially rewarded miners a random amount between 0 and 1,000,000 DOGE
 per block. This was designed to halve 5 times after a little more than 69 days
 before rewarding a fixed 10,000 DOGE per block until a supply cap of 100
-billion DOGE was reached<sup>[[5]](#5)</sup>. This meant that, the expected date, assuming a truly
+billion DOGE was reached<sup>[5](#5)</sup>. This meant that, the expected date, assuming a truly
 random distribution should have stopped rewarding miners after less than a year
 and a half, sometime around June 2015. It turned out that this wasn't the case,
 and the 100 billion supply cap was never enforced, so after the mining rewards
 moved to the fixed 10,000 DOGE, Dogecoin continued to reward 10,000 DOGE per
-block indefinitely<sup>[[6]](#6)</sup>. 
+block indefinitely<sup>[6](#6)</sup>. 
 
 This rewards schedule looks as such:
 
