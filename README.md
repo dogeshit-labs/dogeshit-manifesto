@@ -260,9 +260,9 @@ transactions per second during peak periods.
 Dogecoin can handle a maximum of **68** transactions per second. This
 can be calculated by the following:
 
-\[
-\frac{\textrm{Block Size Limit}}{\textrm{Minimum Transaction Size} \times \textrm{Block Time}} = \frac{1024^{2} \ensuremath{\, \mathrm{Bytes}}}{257 \ensuremath{\, \mathrm{Bytes}} \times 60 \ensuremath{\, \mathrm{seconds}}} \approx 68 \ensuremath{\, \mathrm{TPS}}
-\]
+<br> ![Equation
+1](https://render.githubusercontent.com/render/math?math=%2B%255Cfrac%257B%255Ctextrm%257BBlock%2BSize%2BLimit%257D%257D%257B%255Ctextrm%257BMinimum%2BTransaction%2BSize%257D%2B%255Ctimes%2B%255Ctextrm%257BBlock%2BTime%257D%257D%2B%253D%2B%255Cfrac%257B1024%255E%257B2%257D%2B%255Censuremath%257B%255C%252C%2B%255Cmathrm%257BBytes%257D%257D%257D%257B257%2B%255Censuremath%257B%255C%252C%2B%255Cmathrm%257BBytes%257D%257D%2B%255Ctimes%2B60%2B%255Censuremath%257B%255C%252C%2B%255Cmathrm%257Bseconds%257D%257D%257D%2B%255Capprox%2B68%2B%255Censuremath%257B%255C%252C%2B%255Cmathrm%257BTPS%257D%257D)
+<br>
 
 #### Finality Time
 
@@ -281,8 +281,9 @@ minutes** depending upon the context.
 
 The transaction fee represents how much it costs to send Dogecoin,
 regardless of amount. In 2021 the median transaction fee for Dogecoin
-peaked at just over **$1.25** per transaction, and now currently hovers
-around **$0.34** (October 2021).
+peaked at just over **\![Inline
+Equation 1](https://render.githubusercontent.com/render/math?math=1.25%252A%252A%2Bper%2Btransaction%252C%2Band%2Bnow%2Bcurrently%2Bhovers%2Baround%2B%252A%252A%255C)0.34**
+(October 2021).
 
 #### Network Energy Usage
 
