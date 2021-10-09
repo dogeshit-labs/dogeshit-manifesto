@@ -261,7 +261,7 @@ Dogecoin can handle a maximum of **68** transactions per second. This
 can be calculated by the following:
 
 <br> ![Equation
-1](https://render.githubusercontent.com/render/math?math=%2B%255Cfrac%257B%255Ctextrm%257BBlock%2BSize%2BLimit%257D%257D%257B%255Ctextrm%257BMinimum%2BTransaction%2BSize%257D%2B%255Ctimes%2B%255Ctextrm%257BBlock%2BTime%257D%257D%2B%253D%2B%255Cfrac%257B1024%255E%257B2%257D%2B%255Censuremath%257B%255C%252C%2B%255Cmathrm%257BBytes%257D%257D%257D%257B257%2B%255Censuremath%257B%255C%252C%2B%255Cmathrm%257BBytes%257D%257D%2B%255Ctimes%2B60%2B%255Censuremath%257B%255C%252C%2B%255Cmathrm%257Bseconds%257D%257D%257D%2B%255Capprox%2B68%2B%255Censuremath%257B%255C%252C%2B%255Cmathrm%257BTPS%257D%257D)
+1](https://latex.codecogs.com/svg.latex?%5Cfrac%7B%5Ctextrm%7BBlock+Size+Limit%7D%7D%7B%5Ctextrm%7BMinimum+Transaction+Size%7D+%5Ctimes+%5Ctextrm%7BBlock+Time%7D%7D+%3D+%5Cfrac%7B1024%5E%7B2%7D+%5Censuremath%7B%5C%2C+%5Cmathrm%7BBytes%7D%7D%7D%7B257+%5Censuremath%7B%5C%2C+%5Cmathrm%7BBytes%7D%7D+%5Ctimes+60+%5Censuremath%7B%5C%2C+%5Cmathrm%7Bseconds%7D%7D%7D+%5Capprox+68+%5Censuremath%7B%5C%2C+%5Cmathrm%7BTPS%7D%7D)
 <br>
 
 #### Finality Time
@@ -282,7 +282,7 @@ minutes** depending upon the context.
 The transaction fee represents how much it costs to send Dogecoin,
 regardless of amount. In 2021 the median transaction fee for Dogecoin
 peaked at just over **\![Inline
-Equation 1](https://render.githubusercontent.com/render/math?math=1.25%252A%252A%2Bper%2Btransaction%252C%2Band%2Bnow%2Bcurrently%2Bhovers%2Baround%2B%252A%252A%255C)0.34**
+Equation 1](https://latex.codecogs.com/svg.latex?inline+%3B1.25%2A%2A+per+transaction%2C+and+now+currently+hovers+around+%2A%2A%5C)0.34**
 (October 2021).
 
 #### Network Energy Usage

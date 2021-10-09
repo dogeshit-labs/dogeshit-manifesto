@@ -5,7 +5,7 @@ import pathlib
 import re
 import urllib.parse
 
-RENDER_URL = "https://render.githubusercontent.com/render/math?"
+RENDER_URL = "https://latex.codecogs.com/svg.latex?"
 
 def directory(string):
     if not pathlib.Path(string).is_dir():
@@ -18,18 +18,13 @@ def file(string):
     return string
 
 def make_url(latex):
-   encoded_tex = urllib.parse.quote_plus(latex)
-   query_str = urllib.parse.urlencode({ 'math' : encoded_tex})
-   return RENDER_URL + query_str
+   return RENDER_URL + urllib.parse.quote_plus(latex)
 
 def make_inline_tag(latex, eq_no):
-    return "![Inline Equation {}]({})".format(eq_no, make_url(latex))
+    return "![Inline Equation {}]({})".format(eq_no, make_url('inline ;' + latex))
 
-def make_standalone_tag(latex, eq_no, size=None):
-    if size not in (None, "large", "Large", "LARGE", "huge", "Huge"):
-        raise ValueError("Unsupported size: {}. Valid sizes are 'large', 'Large', 'LARGE', 'huge', and 'Huge'".format(size))
-    size = '' if not size else size
-    tag = "![Equation {}]({})".format(eq_no, make_url(size + ' ' + latex))
+def make_standalone_tag(latex, eq_no):
+    tag = "![Equation {}]({})".format(eq_no, make_url(latex))
     return "<br>\n{}\n<br>".format(tag)
 
 def inline_replace(match):
