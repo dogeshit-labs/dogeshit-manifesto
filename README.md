@@ -261,9 +261,8 @@ transactions per second during peak periods.
 Dogecoin can handle a maximum of **68** transactions per second. This
 can be calculated by the following:
 
-<br> ![Equation
-1](https://latex.codecogs.com/svg.latex?%5Cfrac%7B%5Ctextrm%7BBlockSizeLimit%7D%7D%7B%5Ctextrm%7BMinimumTransactionSize%7D%5Ctimes%5Ctextrm%7BBlockTime%7D%7D%3D%5Cfrac%7B1024%5E%7B2%7D%5Censuremath%7B%5C%2C%5Cmathrm%7BBytes%7D%7D%7D%7B257%5Censuremath%7B%5C%2C%5Cmathrm%7BBytes%7D%7D%5Ctimes60%5Censuremath%7B%5C%2C%5Cmathrm%7Bseconds%7D%7D%7D%5Capprox68%5Censuremath%7B%5C%2C%5Cmathrm%7BTPS%7D%7D)
-<br>
+![Equation
+1](https://latex.codecogs.com/svg.latex?%5Cfrac%7B%5Ctextrm%7BBlock%20Size%20Limit%7D%7D%7B%5Ctextrm%7BMinimum%20Transaction%20Size%7D%20%5Ctimes%20%5Ctextrm%7BBlock%20Time%7D%7D%20%3D%20%5Cfrac%7B1024%5E%7B2%7D%20%5Censuremath%7B%5C%2C%20%5Cmathrm%7BBytes%7D%7D%7D%7B257%20%5Censuremath%7B%5C%2C%20%5Cmathrm%7BBytes%7D%7D%20%5Ctimes%2060%20%5Censuremath%7B%5C%2C%20%5Cmathrm%7Bseconds%7D%7D%7D%20%5Capprox%2068%20%5Censuremath%7B%5C%2C%20%5Cmathrm%7BTPS%7D%7D)
 
 #### Finality Time
 

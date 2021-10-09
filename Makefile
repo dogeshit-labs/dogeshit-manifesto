@@ -3,13 +3,13 @@ all: pdf github
 
 pdf:
 	mkdir -p build
-	pandoc -f markdown manifesto.md -t latex -V colorlinks=true -s -o build/manifesto.tex
+	pandoc -f markdown src/manifesto.md -t latex -V colorlinks=true -s -o build/manifesto.tex
 	pdflatex --output-directory=build build/manifesto.tex
 	mv build/manifesto.pdf manifesto.pdf
 
 github:
 	mkdir -p build
-	./githubiffy.py manifesto.md
+	./githubiffy.py src/manifesto.md
 	pandoc -f markdown -t gfm build/manifesto.gf.md -o README.md
 
 clean:
