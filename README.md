@@ -165,14 +165,14 @@ that mimics the mining reward payout schedule of Dogecoin.
 Dogecoin initially rewarded miners a random amount between 0 and
 1,000,000 DOGE per block. This was designed to halve 5 times after a
 little more than 69 days before rewarding a fixed 10,000 DOGE per block
-until a supply cap of 100 billion DOGE was
-reached<sup>[5](#references)</sup>. This meant that, the expected date,
+until a supply cap of 100 billion DOGE was reached
+<sup>[5](#references)</sup>, This meant that, the expected date,
 assuming a truly random distribution should have stopped rewarding
 miners after less than a year and a half, sometime around June 2015. It
 turned out that this wasn’t the case, and the 100 billion supply cap was
 never enforced, so after the mining rewards moved to the fixed 10,000
-DOGE, Dogecoin continued to reward 10,000 DOGE per block
-indefinitely<sup>[6](#references)</sup>.
+DOGE, Dogecoin continued to reward 10,000 DOGE per block indefinitely
+<sup>[6](#references)</sup>.
 
 This rewards schedule looks as such:
 
@@ -311,22 +311,20 @@ around **$0.34** (October 2021).
 
 # References
 
-<a id="1">\[1\]</a> Elon Musk. Tweet. May 15, 2021.
+\[1\] Elon Musk. Tweet. May 15, 2021.
 <https://twitter.com/elonmusk/status/1393738154889338884>  
-<a id="2">\[2\]</a> Elon Musk. Tweet. May 13, 2021.
+\[2\] Elon Musk. Tweet. May 13, 2021.
 <https://twitter.com/elonmusk/status/1392950720979030019>  
-<a id="3">\[3\]</a> Marshall, F., Reid, R.E.B., Goldstein, S. et
-al. Ancient herders enriched and restructured African grasslands.
-Nature 561, 387–390 (2018).
-<https://doi.org/10.1038/s41586-018-0456-9>  
-<a id="4">\[4\]</a> CoinMarketCap. “Rug Pull.” Alexandria.
-CoinMarketCap, August 21, 2021.
-<https://coinmarketcap.com/alexandria/glossary/rug-pull>  
-<a id="5">\[5\]</a> dogecoin. src/main.cpp, commit 1bf59137b, 1124-1184.
-Github. March 13, 2014
+\[3\] Marshall, F., Reid, R.E.B., Goldstein, S. et al. Ancient herders
+enriched and restructured African grasslands. Nature 561, 387–390
+(2018). <https://doi.org/10.1038/s41586-018-0456-9>  
+\[4\] CoinMarketCap. “Rug Pull.” Alexandria. CoinMarketCap, August 21,
+2021. <https://coinmarketcap.com/alexandria/glossary/rug-pull>  
+\[5\] dogecoin. src/main.cpp, commit 1bf59137b, 1124-1184. Github. March
+13, 2014
 <https://github.com/dogecoin/dogecoin/blob/1bf59137bee8bbf4699af8010e1fc2b2f92cef4d/src/main.cpp#L1124>  
-<a id="6">\[6\]</a> Jackson Palmer. Not actually capped at 100 billion?
-\#23. Github. February 2, 2014
+\[6\] Jackson Palmer. Not actually capped at 100 billion? \#23. Github.
+February 2, 2014
 <https://github.com/dogecoin/dogecoin/issues/23#issuecomment-33893149>
 
 <!-- References -->
